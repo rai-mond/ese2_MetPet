@@ -5,11 +5,12 @@ window.onload = () => {
         return `latitude: ${latitude}; longitude: ${longitude};`
     let places = staticLoadPlaces(latitude,longitude);
     renderPlaces(places);
+  }
 };
 
 function staticLoadPlaces(latitude,longitude) {
-    
-        
+
+
     return [
         {
             name: 'MiaoMiao',
